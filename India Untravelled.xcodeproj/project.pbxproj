@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6E72E51AF235E60006A411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E72E41AF235E60006A411 /* main.m */; };
+		2D6E72E81AF235E60006A411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E72E71AF235E60006A411 /* AppDelegate.m */; };
+		2D6E72EB1AF235E60006A411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E72EA1AF235E60006A411 /* ViewController.m */; };
+		2D6E72EE1AF235E60006A411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E72EC1AF235E60006A411 /* Main.storyboard */; };
+		2D6E72F01AF235E60006A411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E72EF1AF235E60006A411 /* Images.xcassets */; };
+		2D6E72F31AF235E60006A411 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E72F11AF235E60006A411 /* LaunchScreen.xib */; };
+		2D6E72FF1AF235E60006A411 /* India_UntravelledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E72FE1AF235E60006A411 /* India_UntravelledTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6E72F91AF235E60006A411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6E72D71AF235E60006A411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6E72DE1AF235E60006A411;
+			remoteInfo = "India Untravelled";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6E72DF1AF235E60006A411 /* India Untravelled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "India Untravelled.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6E72E31AF235E60006A411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6E72E41AF235E60006A411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D6E72E61AF235E60006A411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D6E72E71AF235E60006A411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D6E72E91AF235E60006A411 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D6E72EA1AF235E60006A411 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D6E72ED1AF235E60006A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6E72EF1AF235E60006A411 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D6E72F21AF235E60006A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2D6E72F81AF235E60006A411 /* India UntravelledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "India UntravelledTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6E72FD1AF235E60006A411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6E72FE1AF235E60006A411 /* India_UntravelledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = India_UntravelledTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6E72DC1AF235E60006A411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6E72F51AF235E60006A411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6E72D61AF235E60006A411 = {
+			isa = PBXGroup;
+			children = (
+				2D6E72E11AF235E60006A411 /* India Untravelled */,
+				2D6E72FB1AF235E60006A411 /* India UntravelledTests */,
+				2D6E72E01AF235E60006A411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6E72E01AF235E60006A411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E72DF1AF235E60006A411 /* India Untravelled.app */,
+				2D6E72F81AF235E60006A411 /* India UntravelledTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6E72E11AF235E60006A411 /* India Untravelled */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E72E61AF235E60006A411 /* AppDelegate.h */,
+				2D6E72E71AF235E60006A411 /* AppDelegate.m */,
+				2D6E72E91AF235E60006A411 /* ViewController.h */,
+				2D6E72EA1AF235E60006A411 /* ViewController.m */,
+				2D6E72EC1AF235E60006A411 /* Main.storyboard */,
+				2D6E72EF1AF235E60006A411 /* Images.xcassets */,
+				2D6E72F11AF235E60006A411 /* LaunchScreen.xib */,
+				2D6E72E21AF235E60006A411 /* Supporting Files */,
+			);
+			path = "India Untravelled";
+			sourceTree = "<group>";
+		};
+		2D6E72E21AF235E60006A411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E72E31AF235E60006A411 /* Info.plist */,
+				2D6E72E41AF235E60006A411 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6E72FB1AF235E60006A411 /* India UntravelledTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E72FE1AF235E60006A411 /* India_UntravelledTests.m */,
+				2D6E72FC1AF235E60006A411 /* Supporting Files */,
+			);
+			path = "India UntravelledTests";
+			sourceTree = "<group>";
+		};
+		2D6E72FC1AF235E60006A411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E72FD1AF235E60006A411 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6E72DE1AF235E60006A411 /* India Untravelled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6E73021AF235E60006A411 /* Build configuration list for PBXNativeTarget "India Untravelled" */;
+			buildPhases = (
+				2D6E72DB1AF235E60006A411 /* Sources */,
+				2D6E72DC1AF235E60006A411 /* Frameworks */,
+				2D6E72DD1AF235E60006A411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "India Untravelled";
+			productName = "India Untravelled";
+			productReference = 2D6E72DF1AF235E60006A411 /* India Untravelled.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6E72F71AF235E60006A411 /* India UntravelledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6E73051AF235E60006A411 /* Build configuration list for PBXNativeTarget "India UntravelledTests" */;
+			buildPhases = (
+				2D6E72F41AF235E60006A411 /* Sources */,
+				2D6E72F51AF235E60006A411 /* Frameworks */,
+				2D6E72F61AF235E60006A411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6E72FA1AF235E60006A411 /* PBXTargetDependency */,
+			);
+			name = "India UntravelledTests";
+			productName = "India UntravelledTests";
+			productReference = 2D6E72F81AF235E60006A411 /* India UntravelledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6E72D71AF235E60006A411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "GAURAV SRIVASTAVA";
+				TargetAttributes = {
+					2D6E72DE1AF235E60006A411 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2D6E72F71AF235E60006A411 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2D6E72DE1AF235E60006A411;
+					};
+				};
+			};
+			buildConfigurationList = 2D6E72DA1AF235E60006A411 /* Build configuration list for PBXProject "India Untravelled" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6E72D61AF235E60006A411;
+			productRefGroup = 2D6E72E01AF235E60006A411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6E72DE1AF235E60006A411 /* India Untravelled */,
+				2D6E72F71AF235E60006A411 /* India UntravelledTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6E72DD1AF235E60006A411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6E72EE1AF235E60006A411 /* Main.storyboard in Resources */,
+				2D6E72F31AF235E60006A411 /* LaunchScreen.xib in Resources */,
+				2D6E72F01AF235E60006A411 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6E72F61AF235E60006A411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6E72DB1AF235E60006A411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6E72EB1AF235E60006A411 /* ViewController.m in Sources */,
+				2D6E72E81AF235E60006A411 /* AppDelegate.m in Sources */,
+				2D6E72E51AF235E60006A411 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6E72F41AF235E60006A411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6E72FF1AF235E60006A411 /* India_UntravelledTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6E72FA1AF235E60006A411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6E72DE1AF235E60006A411 /* India Untravelled */;
+			targetProxy = 2D6E72F91AF235E60006A411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D6E72EC1AF235E60006A411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6E72ED1AF235E60006A411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6E72F11AF235E60006A411 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6E72F21AF235E60006A411 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6E73001AF235E60006A411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D6E73011AF235E60006A411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6E73031AF235E60006A411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "India Untravelled/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D6E73041AF235E60006A411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "India Untravelled/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D6E73061AF235E60006A411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "India UntravelledTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/India Untravelled.app/India Untravelled";
+			};
+			name = Debug;
+		};
+		2D6E73071AF235E60006A411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "India UntravelledTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/India Untravelled.app/India Untravelled";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6E72DA1AF235E60006A411 /* Build configuration list for PBXProject "India Untravelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6E73001AF235E60006A411 /* Debug */,
+				2D6E73011AF235E60006A411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6E73021AF235E60006A411 /* Build configuration list for PBXNativeTarget "India Untravelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6E73031AF235E60006A411 /* Debug */,
+				2D6E73041AF235E60006A411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D6E73051AF235E60006A411 /* Build configuration list for PBXNativeTarget "India UntravelledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6E73061AF235E60006A411 /* Debug */,
+				2D6E73071AF235E60006A411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6E72D71AF235E60006A411 /* Project object */;
+}
