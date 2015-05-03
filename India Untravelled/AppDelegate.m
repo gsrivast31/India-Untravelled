@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FlatUIKit.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setupStyling];
     return YES;
+}
+
+- (void)setupStyling {
+    [[UINavigationBar appearance] setBarTintColor:[UIColor turquoiseColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSFontAttributeName:[UIFont flatFontOfSize:17],
+                                                           NSForegroundColorAttributeName:[UIColor whiteColor]
+                                                           }];
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor whiteColor]];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,0 +1,13 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout (0.8)
+  - KRLCollectionViewGridLayout (0.2.0)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout
+  - KRLCollectionViewGridLayout
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 058823cc65c9d84e059b0a85eede517550da0334
+  KRLCollectionViewGridLayout: c40f09d560c7febc6e85c9f35e49312006e5d445
+
+COCOAPODS: 0.35.0
