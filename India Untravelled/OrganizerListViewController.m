@@ -24,7 +24,11 @@
     self.view.backgroundColor = [UIColor colorWithRed:240.0/255.0 green:239.0/255.0 blue:241.0/255.0 alpha:1];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
-    self.entries = @[];
+    self.entries = @[@{@"title":@"GIO adventures", @"date":@"Jul-Sep", @"cost":@"Rs. 25,500 per person", @"ratings":[NSNumber numberWithInteger:4]},
+                     @{@"title":@"Trek the Himalayas", @"date":@"Jun-Aug", @"cost":@"Rs. 16,500 per person", @"ratings":[NSNumber numberWithInteger:4]},
+                     @{@"title":@"365 Hops", @"date":@"Jun-Aug", @"cost":@"Rs. 17,000 per person", @"ratings":[NSNumber numberWithInteger:4]},
+                     @{@"title":@"India Hikes", @"date":@"Jul-Aug", @"cost":@"Rs. 18,750 per person", @"ratings":[NSNumber numberWithInteger:4]}
+                     ];
     
     if(!self.navigationItem.leftBarButtonItem) {
         UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
@@ -38,6 +42,9 @@
         [self.navigationItem setLeftBarButtonItem:backBarButtonItem];
     }
     
+    UIBarButtonItem* sortButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"sort"] style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.rightBarButtonItem = sortButton;
+
     self.tableView.backgroundColor = [UIColor colorFromHexCode:@"#A2DED0"];
 
 }
@@ -49,7 +56,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 4;
+    return [self.entries count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -64,13 +71,14 @@
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     }
     
+    NSDictionary* dict = [self.entries objectAtIndex:indexPath.section];
+    cell.dateLabel.text = [dict valueForKey:@"date"];
+    cell.titleLabel.text = [dict valueForKey:@"title"];
+    cell.costLabel.text = [dict valueForKey:@"cost"];
     
-    cell.dateLabel.text = @"Sanple";
-    cell.titleLabel.text = @"Sanple";
-    cell.ratingLabel.text = @"Sanple";
-    cell.costLabel.text = @"dsds";
+    NSNumber* ratings = [dict objectForKey:@"ratings"];
     cell.backgroundColor = [UIColor clearColor];
-    [cell configureWithStars:3];
+    [cell configureWithStars:[ratings integerValue]];
     
     return cell;
 }

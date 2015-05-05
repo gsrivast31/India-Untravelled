@@ -33,10 +33,10 @@ static NSString * const reuseIdentifier = @"Cell";
     self.layout.minimumColumnSpacing = 2;
     self.layout.minimumInteritemSpacing = 2;
     
-    self.activities = @[@{@"title":@"Valley of Flowers", @"place":@"Himachal", @"detail":@"25Km", @"image":@"valleyofflowers"},
-                        @{@"title":@"Lamayuru-Alchi", @"place":@"Leh", @"detail":@"25Km", @"image":@"lamayurualchitrek"},
-                        @{@"title":@"Stok Kangri", @"place":@"Leh", @"detail":@"25Km", @"image":@"stok"},
-                        @{@"title":@"Chadar Trek", @"place":@"Leh", @"detail":@"25Km", @"image":@"chadar trek"},
+    self.activities = @[@{@"title":@"Valley of Flowers", @"place":@"Himachal", @"detail":@"40Km", @"image":@"valleyofflowers"},
+                        @{@"title":@"Lamayuru-Alchi", @"place":@"Leh", @"detail":@"5-6 Days", @"image":@"lamayurualchitrek"},
+                        @{@"title":@"Stok Kangri", @"place":@"Leh", @"detail":@"40km/9Days", @"image":@"stok"},
+                        @{@"title":@"Chadar Trek", @"place":@"Leh", @"detail":@"12 days", @"image":@"chadar trek"},
                         @{@"title":@"Parangla Trek", @"place":@"Leh", @"detail":@"25Km", @"image":@"parangla"},
                         @{@"title":@"Tso Moriri Trek", @"place":@"Leh", @"detail":@"25Km", @"image":@"trek2"},
                         @{@"title":@"Tso Moriri Trek", @"place":@"Leh", @"detail":@"25Km", @"image":@"trek3"},

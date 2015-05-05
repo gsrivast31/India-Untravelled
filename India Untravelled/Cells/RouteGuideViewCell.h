@@ -19,6 +19,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ascendLabel;
 @property (weak, nonatomic) IBOutlet UILabel *descendLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *distanceImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *ascendImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *descendImageView;
 
 - (void)configureCell;
 

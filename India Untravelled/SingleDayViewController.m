@@ -33,7 +33,7 @@
     [super viewDidLoad];
     self.photoCollectionView.dataSource = self;
     
-    self.entries = @[@"bkgnd1", @"bkgnd1"];
+    self.entries = @[@"trek2", @"trek3", @"trek4", @"stok", @"lamayurualchitrek", @"panrangla"];
     
     self.layout.minimumInteritemSpacing = 5.0f;
     self.layout.minimumLineSpacing = 5.0f;
@@ -62,7 +62,7 @@
 }
 
 - (void)addText {
-    NSString* htmlStr = @"<html><body><p>From <a href=\"#poi-26\">Crianlarich</a>, head back up to the trail that leads you west through the trees and then descends into Strath Fillan (just follow the A82 until you hit the trail again). You'll walk through this wide valley towards <a href=\"#poi-27\">Tyndrum</a>, passing underneath the railway and crossing the A82 and River Fillan to Kirkton Farm and what remains of St Fillan's Chapel. Less than a kilometer from there, you'll get to <a href=\"#poi-68\">Auchtertyre Farm</a>, a working farm that lets wigwams, has a small shop and serves tea and coffee.</p></body></html>";
+    NSString* htmlStr = @"<html><body style=\"background: rgb(161, 221, 207);\"><p>Today is the actual start of the trek. Deciding to trek in Leh is for many like a dream come true, an experience which is highly valued and rare. Only a slight percentage of the trekkers is actually able to accomplish these treks and people who do are one of the most adventurous. Trekking in this part of the country requires strength and serious courage. After breakfast, your guide will give you briefing on the activities ahead.<br>The trekking starts with a drive to Stok village through a paved road. Before you start, always recheck that you have all the required stuff and supplies for the trek. As the drive starts from Leh, you will come across many beautiful and exotic scenes. The drive to the Stok Village is quite adventurous and has bounties of nature never before experienced. Full of lush green, silver birch trees and colourful flowers, there is no better ride. The weather is perfect during summers and roaming around is very peaceful. Stok Village is situated to the south of Leh and is well known for its royal palace and the King of Ladakh who resides here. If time permits do visit the grand palace and the museum attached to it. The museum hosts many religious and historic artefacts, which depict the history of Ladakh and its ancient rulers.<br><br>Stok Kangri is not a camping site, but the place where you start your walk to Chang Ma. As it is just beginning, the trek might be a bit difficult to start off. Experience the immense joy of trekking on snow and open up huge possibilities, for moving ahead. After a trek of around 4 hours, the destination for the day arrives. Chang Ma is a popular spot for camping, a firm open ground where tents can easily be placed. You will spend the night here, have your dinner quickly and go for an early sleep; the next day awaits many surprises.</p></body></html>";
     [self.webView loadHTMLString:htmlStr baseURL:nil];
 }
 

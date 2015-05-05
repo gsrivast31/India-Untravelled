@@ -52,7 +52,8 @@
                      @{@"title":@"What to pack", @"image":@"pack"},
                      @{@"title":@"Permits", @"image":@"permits"},
                      @{@"title":@"Experiences", @"image":@"experiences"},
-                     @{@"title":@"Trek Organizers", @"image":@"organizers"}
+                     @{@"title":@"Trek Organizers", @"image":@"NavBarIconListMenu"},
+                     @{@"title":@"Ask the experts", @"image":@"organizers"}
                      ];
     
     self.colors = @[@"#7ecef4", @"#84ccc9", @"#88abda", @"#7dc1dd", @"#b6b8de"];

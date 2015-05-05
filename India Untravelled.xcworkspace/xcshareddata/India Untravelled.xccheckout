@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A50CE4AA-C0F3-4A18-B3AB-B0C8A218977F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>India Untravelled</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A5011DC745728ADBC87418486498CA7C007258A</key>
+		<string>https://github.com/gsrivast31/India-Untravelled.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>India Untravelled.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A5011DC745728ADBC87418486498CA7C007258A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gsrivast31/India-Untravelled.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A5011DC745728ADBC87418486498CA7C007258A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A5011DC745728ADBC87418486498CA7C007258A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>India%20Untravelled</string>
+		</dict>
+	</array>
+</dict>
+</plist>

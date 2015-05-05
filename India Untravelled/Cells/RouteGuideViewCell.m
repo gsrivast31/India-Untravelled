@@ -13,8 +13,6 @@
 - (void)makeCircular:(UIView*)view withRadius:(CGFloat)radius {
     view.layer.masksToBounds = YES;
     view.layer.cornerRadius = radius;
-    /*view.layer.borderColor = [UIColor whiteColor].CGColor;
-    view.layer.borderWidth = 1.0f;*/
     view.layer.rasterizationScale = [UIScreen mainScreen].scale;
     view.layer.shouldRasterize = YES;
     view.clipsToBounds = YES;

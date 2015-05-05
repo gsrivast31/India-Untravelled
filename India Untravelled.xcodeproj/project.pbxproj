@@ -51,6 +51,7 @@
 		2D6E72F01AF235E60006A411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E72EF1AF235E60006A411 /* Images.xcassets */; };
 		2D6E72F31AF235E60006A411 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E72F11AF235E60006A411 /* LaunchScreen.xib */; };
 		2D6E72FF1AF235E60006A411 /* India_UntravelledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E72FE1AF235E60006A411 /* India_UntravelledTests.m */; };
+		2DB8F3CE1AF88FCC00E3A784 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8F3CD1AF88FCC00E3A784 /* ChatViewController.m */; };
 		84DD633DAC26683DF303E898 /* libPods-India Untravelled.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D4467B7114002490511661 /* libPods-India Untravelled.a */; };
 /* End PBXBuildFile section */
 
@@ -147,6 +148,8 @@
 		2D6E72F81AF235E60006A411 /* India UntravelledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "India UntravelledTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6E72FD1AF235E60006A411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6E72FE1AF235E60006A411 /* India_UntravelledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = India_UntravelledTests.m; sourceTree = "<group>"; };
+		2DB8F3CC1AF88FCC00E3A784 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		2DB8F3CD1AF88FCC00E3A784 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		4F254ADFFDAE95E37558ABC1 /* Pods-India Untravelled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-India Untravelled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-India Untravelled/Pods-India Untravelled.debug.xcconfig"; sourceTree = "<group>"; };
 		B5D4467B7114002490511661 /* libPods-India Untravelled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-India Untravelled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA711C3CA4B954B5BDDC168D /* Pods-India Untravelled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-India Untravelled.release.xcconfig"; path = "Pods/Target Support Files/Pods-India Untravelled/Pods-India Untravelled.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 				2D41336B1AF50AD5004F78B2 /* OrganizerListViewController.m */,
 				2D41336D1AF527B4004F78B2 /* MapViewController.h */,
 				2D41336E1AF527B4004F78B2 /* MapViewController.m */,
+				2DB8F3CC1AF88FCC00E3A784 /* ChatViewController.h */,
+				2DB8F3CD1AF88FCC00E3A784 /* ChatViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -527,6 +532,7 @@
 				2D2329A01AF397180036CA0B /* UIToolbar+FlatUI.m in Sources */,
 				2D6E72E51AF235E60006A411 /* main.m in Sources */,
 				2D23299A1AF397180036CA0B /* UIPopoverController+FlatUI.m in Sources */,
+				2DB8F3CE1AF88FCC00E3A784 /* ChatViewController.m in Sources */,
 				2D4133681AF50ACD004F78B2 /* OrganizerCell.m in Sources */,
 				2D2329571AF360A20036CA0B /* SingleDayViewController.m in Sources */,
 				2D23299F1AF397180036CA0B /* UITableViewCell+FlatUI.m in Sources */,
